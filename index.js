@@ -17,7 +17,10 @@ function nowServing(katzDeli){
 
 function currentLine(katzDeli){
   if(katzDeli.length >= 1){
-    
+    var result = "The line is currently: "
+    for(let i = 0; i < katzDeli.length; i++){
+
+    }
   }else{
     return "The line is currently empty"
   }
