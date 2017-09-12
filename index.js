@@ -18,9 +18,14 @@ function nowServing(katzDeli){
 function currentLine(katzDeli){
   if(katzDeli.length >= 1){
     var result = "The line is currently: "
-    for(let i = 0; i < katzDeli.length; i++){
-
+    for(let i = 1; i <= katzDeli.length; i++){
+      if(i === katzDeli.length - 1){
+        result += `${i}. ${katzDeli[i-1]}`
+      }else{
+        result += `${i}. ${katzDeli[i-1]}, `
+      }
     }
+    return result
   }else{
     return "The line is currently empty"
   }
