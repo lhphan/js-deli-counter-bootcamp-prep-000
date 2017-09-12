@@ -9,7 +9,7 @@ function nowServing(katzDeli){
   if(katzDeli.length >= 1){
     var serving = katzDeli[0]
     katzDeli.unshift()
-    return `Currently serving ${serving}`
+    return `Currently serving ${serving}.`
   }else{
     return "There is nobody waiting to be served!"
   }
