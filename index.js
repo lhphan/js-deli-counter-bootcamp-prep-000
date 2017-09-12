@@ -14,3 +14,11 @@ function nowServing(katzDeli){
     return "There is nobody waiting to be served!"
   }
 }
+
+function currentLine(katzDeli){
+  if(katzDeli.length >= 1){
+    
+  }else{
+    return "The line is currently empty"
+  }
+}
