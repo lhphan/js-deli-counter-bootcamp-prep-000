@@ -6,7 +6,7 @@ function takeANumber(katzDeli, name){
 }
 
 function nowServing(katzDeli){
-  if(katzDeli >= 1){
+  if(katzDeli.length >= 1){
     var serving = katzDeli[0]
     katzDeli.unshift()
     return serving
